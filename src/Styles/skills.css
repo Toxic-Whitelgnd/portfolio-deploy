@@ -1,0 +1,214 @@
+.skill{
+    height: auto;
+    background-color: #b8d8f7;
+}
+.allcontent{
+    display: flex;
+    padding: 20px;
+    
+
+}
+.h3skill{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    height: auto;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 40px;
+}
+.htmlcontainer{
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    animation-name: htmltag;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes htmltag {
+    0%{color: red;}
+    25%{color:violet;}
+    50%{color: turquoise;}
+    75%{color: rebeccapurple;}
+    100%{color: yellow;}
+    
+}
+
+
+
+.csscontainer{
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    animation-name: csstag;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes csstag {
+    0%{color: red;}
+    25%{color:violet;}
+    50%{color: turquoise;}
+    75%{color: rebeccapurple;}
+    100%{color: yellow;}
+    
+}
+.javascript{
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    animation-name: jstag;
+    animation-duration: 6s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes jstag {
+    0%{color: red;}
+    25%{color:violet;}
+    50%{color: turquoise;}
+    75%{color: rebeccapurple;}
+    100%{color: yellow;}
+    
+}
+.pythoncontainer{
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    animation-name: pytag;
+    animation-duration: 7s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes pytag {
+    0%{color: red;}
+    25%{color:violet;}
+    50%{color: turquoise;}
+    75%{color: rebeccapurple;}
+    100%{color: yellow;}
+    
+}
+.flutter{
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    animation-name: fltag;
+    animation-duration: 8s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes fltag {
+    0%{color: red;}
+    25%{color:violet;}
+    50%{color: turquoise;}
+    75%{color: rebeccapurple;}
+    100%{color: yellow;}
+    
+}
+.ccontainer{
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    animation-name:ctag;
+    animation-duration: 9s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes ctag {
+    0%{color: red;}
+    25%{color:violet;}
+    50%{color: turquoise;}
+    75%{color: rebeccapurple;}
+    100%{color: yellow;}
+    
+}
+.javacontainer{
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    animation-name: jtag;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes jtag {
+    0%{color: red;}
+    25%{color:violet;}
+    50%{color: turquoise;}
+    75%{color: rebeccapurple;}
+    100%{color: yellow;}
+    
+}
+.projects{
+    justify-content: center;
+    margin: auto;
+    font-family: 'Rajdhani', sans-serif;
+}
+#proj{
+    justify-content: center;
+    margin: auto;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    padding: 30px;
+}
+.iconbg{
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius:50%;
+
+}
+.iconbg .projicon{
+    display: flex;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    padding: 12px;
+    color: white;
+
+   
+}
+
+
+/* media */
+@media only screen and (max-width: 600px) {
+    .allcontent{
+        display: grid;
+        row-gap: 40px;
+    }
+    
+}

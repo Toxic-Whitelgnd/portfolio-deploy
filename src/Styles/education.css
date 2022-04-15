@@ -1,0 +1,258 @@
+.education{
+    margin: auto;
+    background-color: #7291f9;
+    height: auto;
+    display: block;
+    padding-bottom: auto;
+
+}
+.threeboxes1{
+    margin: auto;
+    justify-content: center;
+    grid-column: 2 / -1;
+    display:flex;
+    background-color: #7291f9;
+    
+
+}
+.mj{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 2px;
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* box-0 */
+.container1{
+    position: relative;
+    /* width: 1200px; */
+    height: auto;
+    margin-bottom: 30px;
+    display: block;
+
+
+}
+.container1 .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #ff0;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+  
+    
+}
+.container1 .box .jobicon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    transition: 0.5s;
+    z-index: 1;
+    
+    
+}
+.container1 .box:hover .jobicon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: dashed;
+    position: relative;
+    animation-duration: 4s;
+    animation-name: widthsty;
+    animation-iteration-count: infinite;
+    
+    
+
+}
+@keyframes widthsty {
+    0%{color: gold;}
+    25%{color: red;}
+    50%{color: yellow;}
+    75%{color: blueviolet;}
+    100%{color: yellowgreen;}
+}
+.ji{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: royalblue;
+
+}
+.container1 .box:hover .jobicon .ji{
+    font-size: 40px;
+   
+}
+.container1 .box .content{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+.container1 .box:hover .content{
+    top: 100px;
+    opacity: 1;
+}
+
+.container1 .box:hover .content h3{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 24px;
+
+}
+.container1 .box:hover .content p{
+    margin: 0;
+    padding: 0;
+    color: black;    
+}
+
+
+
+/* changing colors box-1 */
+.container1 .box:nth-child(1) .jobicon{
+
+    background-color: #0565d3;
+}
+.container1 .box:nth-child(1){
+    background-color: #1d42b9d0;
+}
+.container1 .box:nth-child(1) .ji{
+    color:black ;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: educc;
+}
+@keyframes educc {
+    0% {color: blue;}
+    25% {color: red;}
+    50% {color: purple;}
+    75% {color: yellow;}
+    100% {color: orange;}
+    
+}
+
+
+/* box-2 */
+.container1 .box:nth-child(2) .jobicon{
+
+    background-color: #3b3086;
+}
+.container1 .box:nth-child(2){
+    background-color: #3b3086c7;
+}
+.container1 .box:nth-child(2) .ji{
+    color: rgb(27, 221, 85);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: hredu;
+}
+@keyframes hredu {
+    0% {color: blue;}
+    25% {color: red;}
+    50% {color: purple;}
+    75% {color: yellow;}
+    100% {color: orange;}
+    
+}
+
+
+/* box-3 */
+.container1 .box:nth-child(3) .jobicon{
+
+    background-color: #0565d3;
+}
+.container1 .box:nth-child(3){
+    background-color: #1d42b9d0;
+}
+.container1 .box:nth-child(3) .ji{
+    color: black;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: jobb;
+    
+}
+@keyframes jobb {
+    0% {color: blue;}
+    25% {color: red;}
+    50% {color: purple;}
+    75% {color: yellow;}
+    100% {color: orange;}
+    
+}
+
+/* fonst customization and animation */
+#h3tag{
+    font-family: 'Rubik Wet Paint', cursive;
+    position: relative;
+    animation-name: disco;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes disco {
+    0%{color: gold;}
+    25%{color: red;}
+    50%{color: yellow;}
+    75%{color: blueviolet;}
+    100%{color: yellowgreen;}
+    
+}
+#paratag{
+
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    word-spacing: 2px;
+}
+
+/* display rearangements */
+@media only screen and (max-width: 700px) {
+    .threeboxes1{
+        display: grid;
+        height: auto;
+    }
+    .container1{
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        float: left;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 937px) {
+    .threeboxes1{
+        display: grid;
+        row-gap: 20px;
+    }
+
+}

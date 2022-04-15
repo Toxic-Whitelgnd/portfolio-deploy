@@ -1,0 +1,197 @@
+.threeboxes{
+    display: flex;
+    margin: auto;
+    padding: 70px;
+    column-gap: 50px; 
+    justify-content: center;
+    
+
+}
+.h3tag{
+    font-family: 'Rajdhani', sans-serif;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 2px;
+
+}
+
+/* for Web Development */
+.webContainer{
+    background-color: rgb(231, 213, 231);
+    width: 350px;
+    height: auto;
+    border-bottom: royalblue;
+    border-bottom-width: 5px;
+    box-shadow:  4px 5px 56px -8px rgb(21, 105, 94) ;
+    margin: auto;
+    border-bottom-style:solid;
+    border-radius: 2px;
+    
+    
+}
+.webim{
+    margin: auto;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 400px;
+    border-radius: 50px;
+    display: flex;
+}
+.wcheader{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    position: relative;
+    animation-name: webhead;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes webhead {
+    0%{color:skyblue;}
+    25%{color:violet;}
+    50%{color:red;}
+    75%{color:gold;}
+    100%{color:purple;}
+
+    
+}
+
+
+
+
+.wcpara{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    word-spacing: 2px;
+}
+
+/* For App Development */
+.AppContainer{
+    background-color: rgb(231, 213, 231);
+    width: 350px;
+    height: auto;
+    border-bottom: #4FC3C7;
+    border-bottom-width: 5px;
+    box-shadow: red;
+    margin: auto;
+    border-bottom-style:solid;
+    border-radius: 2px;
+    box-shadow:  4px 5px 56px -8px rgb(21, 105, 94) ;
+}
+.appim{
+    margin: auto;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 400px;
+    border-radius: 50px;
+    display: flex;
+}
+.appheader{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    position: relative;
+    animation-name: apphead;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes apphead {
+    0%{color:violet;}
+    25%{color:red;}
+    50%{color:purple;}
+    75%{color:palegoldenrod;}
+    100%{color:gold;}
+
+    
+}
+
+.apppara{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    word-spacing: 2px;
+}
+
+/* for other interest */
+.otherContainer{
+    background-color: rgb(231, 213, 231);
+    width: 350px;
+    height: auto;
+    border-bottom: #1C9D79;
+    border-bottom-width: 5px;
+    box-shadow: red;
+    margin: auto;
+    border-bottom-style:solid;
+    border-radius: 2px;
+    box-shadow:  4px 5px 56px -8px rgb(21, 105, 94) ;
+}
+.othim{
+    margin: auto;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 400px;
+    border-radius: 50px;
+    display: flex;
+}
+.othheader{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    position: relative;
+    animation-name: othhead;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes othhead {
+    0%{color:violet;}
+    25%{color:gold;}
+    50%{color:purple;}
+    75%{color:royalblue;}
+    100%{color:red;}
+
+    
+}
+
+.othpara{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    word-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .threeboxes{
+        display: grid;
+        row-gap: 40px;
+    }
+    
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 937px) {
+    .threeboxes{
+        display: grid;
+        row-gap: 40px;
+    }
+
+}

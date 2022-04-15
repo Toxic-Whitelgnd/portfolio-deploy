@@ -1,0 +1,78 @@
+.intialsetting{
+    background-color:#328292;
+    margin-top: -16px;
+    
+}
+.hwtag {
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    max-width: 250px;
+    
+
+}
+
+#home {
+    background-color: bisque;
+}
+.hometag{
+    text-align: center;
+    margin-top: -15px;
+    padding: 10px;
+}
+.aboutmeee{
+    background-color: #B79065;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+#aboutme{
+    margin-top: auto;
+    height: 600px;
+    background-color: #B79065;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+#interest{
+    height: auto;
+    background-color: rgb(52, 164, 179);
+
+
+}
+.interestcontent{
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+
+#education{
+    height: auto;
+    
+    background-color: #7291f9;
+    
+}
+.educa{
+    font-family: 'Rubik Wet Paint', cursive;
+}
+#skills{
+    height: auto;
+    background-color: #b8d8f7;
+   
+}
+.skillsection{
+    font-family: 'Rubik Wet Paint', cursive;
+}
+#footer{
+    background-color: black;
+    /* need to change the height to auto after completing */
+    height: 380px;
+
+}
+.footersection{
+    color: whitesmoke;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 34px;
+    margin-left: 10px;
+    padding: 34px;
+
+}

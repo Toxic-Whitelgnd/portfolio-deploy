@@ -1,0 +1,54 @@
+.headercontent{
+    color: none;
+    background-color: #05445E;
+    
+}
+
+.portfolioheader{
+    justify-content: center;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    color:#189AB4 ;
+
+}
+.ulcontent {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #189AB4;  /* 189AB4 */
+    width: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    border-bottom: rgb(16, 160, 124);
+    border-width: 4px;
+    border-bottom-style:groove ;
+    border-top: rgb(16, 160, 124);
+    border-top-style:groove ;
+
+
+    
+
+}
+.nav-text{
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+
+
+.nav-text a:hover{
+    background-color: #05445E;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    
+}
+
+/* @media only screen and (min-width:635px){
+    .headercontent{
+        position: fixed;
+    }
+} */
