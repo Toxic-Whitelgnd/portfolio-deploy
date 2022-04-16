@@ -1,6 +1,7 @@
 .headercontent{
     color: none;
     background-color: #05445E;
+    width: 100%;
     
 }
 
@@ -47,8 +48,31 @@
     
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:660px){
     .ulcontent{
         font-size: 12px;
     }
+    .headercontent{
+        width: auto;
+    
+
+    }
+    .nav-text{
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (max-width:518px){
+    .ulcontent{
+        font-size: 12px;
+    }
+    .headercontent{
+        width: auto;
+        font-size: 12px;
+    }
+    .nav-text{
+        font-size: 12px;
+    }
+    
 }
