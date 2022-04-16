@@ -1,3 +1,11 @@
+html{
+    overflow-x: hidden;
+
+}
+body{
+    overflow: hidden;
+}
+
 .headercontent{
     color: none;
     background-color: #05445E;
@@ -48,9 +56,24 @@
     color: white;
     
 }
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 480px) {
     .ulcontent{
-        font-size: 40%;
+        
+    }
+    .nav-text{
+        font-size: 70%;
+    }
+
+}
+/* need change for other dimension */
+@media only screen and (max-width: 780px) {
+    .ulcontent{
+        
+    }
+    .nav-text{
+        font-size: 70%;
     }
 
 }
