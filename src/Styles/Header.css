@@ -59,9 +59,7 @@ body{
 
 
 @media only screen and (max-width: 480px) {
-    .ulcontent{
-        
-    }
+    
     .nav-text{
         font-size: 70%;
     }

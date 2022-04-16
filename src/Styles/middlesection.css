@@ -30,7 +30,7 @@
 
 #aboutme{
     margin-top: auto;
-    height: 600px;
+    height: auto;
     background-color: #B79065;
     font-family: 'Rubik Wet Paint', cursive;
 }
