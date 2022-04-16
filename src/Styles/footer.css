@@ -223,11 +223,15 @@
     height: 27px;
     
   }
+
+  .icons a{
+    margin: 0 10px;
+  }
    
    
 
    .text{
-     font-size: 16px;
+     font-size: 12px;
    }
 
 }
