@@ -21,7 +21,7 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    background-color: #189AB4;  /* 189AB4 */
+    background-color: #189AB4; 
     width: 100%;
     font-family: 'Rajdhani', sans-serif;
     border-bottom: rgb(16, 160, 124);
@@ -48,9 +48,10 @@
     
 }
 
-@media only screen and (max-width:660px){
+@media only screen  and (max-width:700px){
     .ulcontent{
-        font-size: 12px;
+       
+        margin-right:  14px; 
     }
     .headercontent{
         width: auto;
@@ -59,13 +60,14 @@
     }
     .nav-text{
         font-size: 16px;
+       
     }
     
 }
 
-@media only screen and (max-width:518px){
+@media only screen and (max-width:500px){
     .ulcontent{
-        font-size: 12px;
+        width: auto;
     }
     .headercontent{
         width: auto;
