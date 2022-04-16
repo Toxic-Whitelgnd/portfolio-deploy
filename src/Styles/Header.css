@@ -29,6 +29,7 @@
     border-bottom-style:groove ;
     border-top: rgb(16, 160, 124);
     border-top-style:groove ;
+    overflow-x: hidden;
 
 
     
