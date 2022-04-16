@@ -120,7 +120,7 @@
       text-align: center;
       font-size: 30px;
       animation: fb 4s alternate infinite;
-      
+    
   }
   @keyframes fb {
     0%{color:violet;}
@@ -201,4 +201,33 @@
 .madeby h5{
     color: white;
     /* margin-top: 40px; */
+}
+@media only screen and (max-width: 480px) {
+   .icons .fbicon{
+     font-size: 15px;
+   } 
+   .icons .instaicon{
+    font-size: 15px;
+  } 
+  .icons .giticon{
+    font-size: 15px;
+  } 
+  .icons .linicon{
+    font-size: 15px;
+  } 
+  .icons .emicon{
+    font-size: 15px;
+  } 
+   .icons a .layer{
+    width: 27px;
+    height: 27px;
+    
+  }
+   
+   
+
+   .text{
+     font-size: 16px;
+   }
+
 }
