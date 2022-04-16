@@ -205,9 +205,20 @@
 
 
 /* media */
+@media only screen and (max-width: 480px) {
+    .allcontent{
+        
+      
+        display: grid;
+
+        row-gap: 40px;
+    }
+    
+}
+
 @media only screen and (max-width: 600px) {
     .allcontent{
-        display: grid;
+        
         row-gap: 40px;
     }
     
