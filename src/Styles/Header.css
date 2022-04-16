@@ -70,7 +70,7 @@ body{
 /* need change for other dimension */
 @media only screen and (max-width: 780px) {
     .ulcontent{
-        
+        font-size: large;
     }
     .nav-text{
         font-size: 70%;
