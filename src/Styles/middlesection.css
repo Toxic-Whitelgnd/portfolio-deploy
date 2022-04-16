@@ -32,13 +32,13 @@
     margin-top: auto;
     height: auto;
     background-color: #B79065;
-    
+    padding-bottom: 30px;
     font-family: 'Rubik Wet Paint', cursive;
 }
 #interest{
     height: auto;
     background-color: rgb(52, 164, 179);
-
+    
 
 }
 .interestcontent{
