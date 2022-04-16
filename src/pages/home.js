@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/home.css"
-import img1 from  "./../images/homei.jpg"
+import img1 from  "./../images/entry4.jpg"
 import img2 from "./../images/Hello.jpg"
 import img3 from "./../images/Pencil.jpg"
 import {Carousel} from "react-bootstrap"
