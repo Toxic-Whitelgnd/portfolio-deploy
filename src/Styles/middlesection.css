@@ -67,7 +67,7 @@
     background-color: black;
     /* need to change the height to auto after completing */
     height: auto;
-
+    overflow-x: hidden;
 }
 .footersection{
     color: whitesmoke;
