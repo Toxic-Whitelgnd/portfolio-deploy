@@ -10,7 +10,7 @@ export default function Footer(){
         <div className="footercontent">
         <div className="icons">
             {/* Facebook */}
-            <a href="#">
+            <a href="https://www.facebook.com/TheBestBrotherEver/">
                 <div className="layer">
                 <span></span>
                 <span></span>
@@ -22,7 +22,7 @@ export default function Footer(){
 
             </a>
             {/* InstaGram */}
-            <a href="#">
+            <a href="https://www.instagram.com/t_a_r_u_n_s_k_/">
                 <div className="layer">
                 <span></span>
                 <span></span>
@@ -34,7 +34,7 @@ export default function Footer(){
 
             </a>
             {/* github */}
-            <a href="#">
+            <a href="https://github.com/Toxic-Whitelgnd">
                 <div className="layer">
                 <span></span>
                 <span></span>
@@ -46,7 +46,8 @@ export default function Footer(){
 
             </a>
             {/* Linked in */}
-            <a href="#">
+            <a href=" https://www.linkedin.com/in/tarun-s-k-737349207/"> 
+    
                 <div className="layer">
                 <span></span>
                 <span></span>
@@ -58,7 +59,7 @@ export default function Footer(){
 
             </a>
             {/* email */}
-            <a href="#">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
                 <div className="layer">
                 <span></span>
                 <span></span>
