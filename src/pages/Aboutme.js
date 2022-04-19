@@ -56,10 +56,11 @@ function Aboutme() {
 
       <Fade right={true}>
     
-      <h6 className='mecontent'> My  Name is Tarun S.K .People call Me as Toxic-WhiteLgnd!! as My name in Github.I love 
-      exploring new technologies and being a practitioner,I like to stay on top of trends.I am trying  to write my code easy and accessible but in reality i 
-      can't make it properly.I will Work towards it.Nothing to say About me!!.Neeed to learn Something Different and View the World 
-      in the Different Directions!!...
+      <h6 className='mecontent'> Tarun S.K. is my name. People refer to me
+       as Toxic-WhiteLgnd!! on Github. I enjoy learning about new
+        technology and, as a practitioner, I prefer to keep up with 
+        current events. I'm attempting to make my code simple and accessible, but I'm failing miserably. I'll do my best to achieve it. 
+        There is nothing to say about myself!! Need to learn something new and see the world from a different perspective!!
       </h6>
       </Fade>
     </div>
