@@ -54,6 +54,7 @@ body{
   
     
 }
+/* for job */
 .container1 .box .jobicon{
     position: absolute;
     top: 0;
@@ -63,6 +64,7 @@ body{
     background: red;
     transition: 0.5s;
     z-index: 1;
+    background-image: linear-gradient(to right,  #fc354c, #0abfbc );
     
     
 }
@@ -78,9 +80,71 @@ body{
     animation-name: widthsty;
     animation-iteration-count: infinite;
     
+}
+/* for higher education */
+.container1 .box .highericon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    transition: 0.5s;
+    z-index: 1;
+    background-image: linear-gradient(to left,  #fc354c, #0abfbc );
     
+    
+}
+.container1 .box:hover .highericon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: dashed;
+    position: relative;
+    animation-duration: 4s;
+    animation-name: widthsty;
+    animation-iteration-count: infinite;   
 
 }
+.container1 .box:hover .highericon .ji{
+    font-size: 40px;
+   
+}
+/* Under  graduation */
+.container1 .box .ugicon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    transition: 0.5s;
+    z-index: 1;
+    background-image: linear-gradient(to right, #43cea2, #185a9d);
+    
+    
+}
+.container1 .box:hover .ugicon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: dashed;
+    position: relative;
+    animation-duration: 4s;
+    animation-name: widthsty;
+    animation-iteration-count: infinite;   
+
+}
+.container1 .box:hover .ugicon .ji{
+    font-size: 40px;
+   
+}
+
+
 @keyframes widthsty {
     0%{color: gold;}
     25%{color: red;}
@@ -139,7 +203,7 @@ body{
     background-color: #0565d3;
 }
 .container1 .box:nth-child(1){
-    background-color: #1d42b9d0;
+    background-color: #fd364dd2;
 }
 .container1 .box:nth-child(1) .ji{
     color:black ;
@@ -163,7 +227,7 @@ body{
     background-color: #3b3086;
 }
 .container1 .box:nth-child(2){
-    background-color: #3b3086c7;
+    background-color: #185a9d;
 }
 .container1 .box:nth-child(2) .ji{
     color: rgb(27, 221, 85);
@@ -187,7 +251,7 @@ body{
     background-color: #0565d3;
 }
 .container1 .box:nth-child(3){
-    background-color: #1d42b9d0;
+    background-color: #0abfbc;
 }
 .container1 .box:nth-child(3) .ji{
     color: black;

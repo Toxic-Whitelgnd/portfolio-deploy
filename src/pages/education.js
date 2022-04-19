@@ -36,7 +36,7 @@ function Education() {
 
                     <motion.div data-aos="slide-left" data-aos-mirror="true" data-aos-duration="2500" className='box' variants={boxesvariant}
                         whileTap="onetap" whileHover="hover">
-                        <div className='jobicon'>
+                        <div className='highericon'>
                             <div className='ji'>
                                 <Faicon.FaSchool />
                             </div>
@@ -52,7 +52,7 @@ function Education() {
                     </motion.div>
                     <motion.div data-aos="zoom-out" data-aos-mirror="true" data-aos-duration="2500" className='box' variants={boxesvariant}
                         whileTap="onetap" whileHover="hover">
-                        <div className='jobicon'>
+                        <div className='ugicon'>
                             <div className='ji'>
                                 <Icoicons.IoIosSchool />
                             </div>
