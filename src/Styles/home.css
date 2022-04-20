@@ -31,3 +31,9 @@
     75% {color: yellow;}
     100% {color: orange;}
 }
+.typewritercontent{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family:'Satisfy', cursive;
+}

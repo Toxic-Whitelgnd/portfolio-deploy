@@ -34,16 +34,18 @@ function Home() {
     />
     <Carousel.Caption>
       <h3 className='myself'>I'am Tarun</h3>
-      <Typewriter
-        words={[Student,Designer,Developer,Gamer,Coder]}
+      <div className="typewritercontent">
+      <Typewriter 
+        words={['Student','Designer','Developer','Gamer','Coder']}
         loop
         cursor
-        cursorStyle='?'
+        cursorStyle='#'
         typeSpeed={60}
         deleteSpeed={40}
         delaySpeed={1000}
 
       />
+      </div>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
