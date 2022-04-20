@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-deploy/static/css/main.061bf714.css",
-    "main.js": "/portfolio-deploy/static/js/main.f0617612.js",
+    "main.css": "/portfolio-deploy/static/css/main.efb2a45e.css",
+    "main.js": "/portfolio-deploy/static/js/main.8bba2fa7.js",
     "static/media/1.jpg": "/portfolio-deploy/static/media/1.411998a95283f2edee6e.jpg",
     "static/media/Pencil.jpg": "/portfolio-deploy/static/media/Pencil.7d7824c6cd991eb49ce4.jpg",
     "static/media/homeimg.jpg": "/portfolio-deploy/static/media/homeimg.156a4c3cba677f89107d.jpg",
     "static/media/entry4.jpg": "/portfolio-deploy/static/media/entry4.c7e0e8435a988b68ce74.jpg",
     "static/media/2.jpg": "/portfolio-deploy/static/media/2.d183d9cf21818dbfbc5b.jpg",
-    "static/media/3.jpeg": "/portfolio-deploy/static/media/3.8b00fc043500366d1bea.jpeg",
     "static/media/4.jpg": "/portfolio-deploy/static/media/4.186cb3e692a426837e32.jpg",
     "static/media/5.jpg": "/portfolio-deploy/static/media/5.feff49c98b88c6ab0324.jpg",
-    "static/media/6.jpeg": "/portfolio-deploy/static/media/6.39dd9ad709cd82db7d6e.jpeg",
     "static/media/other.png": "/portfolio-deploy/static/media/other.7fdf000733b24b95a752.png",
     "static/media/Hello.jpg": "/portfolio-deploy/static/media/Hello.690bd2dd2915cc564f69.jpg",
     "static/media/appimgs.png": "/portfolio-deploy/static/media/appimgs.1709e5ff264efea94e2b.png",
     "static/media/web.png": "/portfolio-deploy/static/media/web.0b2dd807353a18465739.png",
     "index.html": "/portfolio-deploy/index.html",
-    "main.061bf714.css.map": "/portfolio-deploy/static/css/main.061bf714.css.map",
-    "main.f0617612.js.map": "/portfolio-deploy/static/js/main.f0617612.js.map"
+    "main.efb2a45e.css.map": "/portfolio-deploy/static/css/main.efb2a45e.css.map",
+    "main.8bba2fa7.js.map": "/portfolio-deploy/static/js/main.8bba2fa7.js.map"
   },
   "entrypoints": [
-    "static/css/main.061bf714.css",
-    "static/js/main.f0617612.js"
+    "static/css/main.efb2a45e.css",
+    "static/js/main.8bba2fa7.js"
   ]
 }
