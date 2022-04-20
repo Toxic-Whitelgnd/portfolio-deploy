@@ -190,17 +190,17 @@
 .quotes h4{
   margin-top: 30px;
    color: blanchedalmond;
-   opacity: 0;
+   
 
 }
 .quotes p{
     color: whitesmoke;
     margin-top: 30px;
-    opacity: 0;
+    font-size: 25px;
 }
 .madeby h5{
     color: white;
-    /* margin-top: 40px; */
+    
 }
 @media only screen and (max-width: 480px) {
    .icons .fbicon{
@@ -232,6 +232,12 @@
     color: white;
     font-size: 9px;
 } 
+.quotes p{
+  color: whitesmoke;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
    
    .text{
      font-size: 12px;
