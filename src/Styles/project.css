@@ -1,0 +1,61 @@
+.projectcontainer{
+    text-align: center;
+    background-color: aqua;
+    height:1000px;
+}
+.containerwrap{
+   
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+.totalcard{
+    background-color: rgb(182, 127, 127);
+}
+.insidewarp{
+    margin-right: 20px;
+}
+.img{
+    /* max-width: 250px; */
+    max-height: 300px;
+}
+.title{
+    background-color: aqua;
+    border-radius: 30px;
+    width:200px;
+    justify-content: start;
+    text-align: center;
+
+}
+.language{
+    display: inline-flex;
+    background-color: aqua;
+    border-radius: 30px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+}
+.descreption{
+    background-color: yellow;
+    padding: 30px;
+    border-radius: 3px;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+}
+/* use like hover change the backgroud */
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.linkbox {
+    background-color: blueviolet;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    border-radius: 4px;
+    color: red;
+    text-decoration: none;
+}

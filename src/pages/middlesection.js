@@ -17,7 +17,7 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import Footer from './footer'
 import * as Faico from "react-icons/fa";
-
+import Project from "./projects"
 
 
 export default class MiddleSection extends Component {
@@ -89,6 +89,9 @@ export default class MiddleSection extends Component {
           <div id="skills">
             <h1 className='skillsection'>Skills</h1>
             <Skills />
+          </div>
+          <div className='proj'>
+            <Project />
           </div>
           <div id="footer">
             <h1 className='footersection'><Faico.FaHandPeace/></h1>

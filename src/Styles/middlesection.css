@@ -64,6 +64,9 @@
 .skillsection{
     font-family: 'Rubik Wet Paint', cursive;
 }
+.proj{
+    height: auto;
+}
 #footer{
     background-color: black;
     /* need to change the height to auto after completing */
