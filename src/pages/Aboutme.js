@@ -5,13 +5,13 @@ import img1 from "./../images/1.jpg"
 import img2 from "./../images/2.jpg"
 import img3 from "./../images/5.jpg"
 import img4 from "./../images/4.jpg"
-
 import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
 import { useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
-import Swiperforimg from '../components/swiperforimg';
+import Typewriter from 'typewriter-effect';
+
 
 
 function Aboutme() {
