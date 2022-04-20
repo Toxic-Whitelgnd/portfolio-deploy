@@ -3,8 +3,13 @@ import * as Sico from "react-icons/si";
 import * as aico from "react-icons/ai";
 import * as Faico from "react-icons/fa";
 import "../Styles/footer.css"
+import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 
 export default function Footer(){
+
+  
+
+
     return(
         <>
         <div className="footercontent">
@@ -78,7 +83,19 @@ export default function Footer(){
         <div className="quotes">
            
             <h4> To all  Haters My Motivation and Quotes is</h4>
-            <p><i>"Your Intellegence is My Fukking Common Sense"</i></p>
+            <p><i>
+            <Typewriter 
+                words={['"Your Intellegence is My Fukking Common Sense"'," 'Dont't Hide your Permanent Simle for Temporary Madarchods '",
+                " 'Be Different' "," 'Dont Trust Anyone in the World' "]}
+                loop
+                cursor
+                cursorStyle='#'
+                typeSpeed={90}
+                deleteSpeed={80}
+                delaySpeed={1500}
+
+            />
+            </i></p>
         </div>
 
         <div className="madeby">
