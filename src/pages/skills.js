@@ -18,7 +18,12 @@ export default function Skills() {
     ontap: {
       scale: 1.2,
       boxShadow: "3px 3px 2px 2px #6f96bd"
+
     }
+  }
+  function ontapp(event,info){
+      console.log(info.point.x,info.point.y,"clicked me",event)
+      
   }
 
   useEffect(() => {
@@ -31,8 +36,9 @@ export default function Skills() {
         <h3 className='h3skill'>Here Some of My Skills Are</h3>
         <span data-aos="fade-right" data-aos-duration="1600" data-aos-delay="40" data-aos-easing="ease-in-out" className='allcontent'>
           <motion.div className='htmlcontainer' variants={skillvariant}
-            whileHover="hover" whileTap="ontap"
+            whileHover="hover" whileTap="ontap" onTap={ontapp}
           >
+         
             <Faico.FaHtml5 />
           </motion.div>
           <motion.div className='csscontainer' variants={skillvariant}
