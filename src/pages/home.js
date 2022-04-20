@@ -8,6 +8,7 @@ import {Link} from 'react-scroll'
 import { useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
 function Home() {
@@ -33,7 +34,16 @@ function Home() {
     />
     <Carousel.Caption>
       <h3 className='myself'>I'am Tarun</h3>
-      <p>🧡😊💜</p>
+      <Typewriter
+        words={[Student,Designer,Developer,Gamer,Coder]}
+        loop
+        cursor
+        cursorStyle='?'
+        typeSpeed={60}
+        deleteSpeed={40}
+        delaySpeed={1000}
+
+      />
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
