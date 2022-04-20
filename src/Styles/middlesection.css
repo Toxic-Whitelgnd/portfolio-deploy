@@ -48,12 +48,13 @@
 
 #education{
     height: auto;
-    
-    background-color: #7291f9;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right,#fc354cd8, #185b9dc5 );
     
 }
 .educa{
     font-family: 'Rubik Wet Paint', cursive;
+    background-color: #7291f9;
 }
 #skills{
     height: auto;
