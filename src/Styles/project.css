@@ -1,11 +1,16 @@
 .projectcontainer{
     text-align: center;
     background-color: aqua;
-    height:1000px;
+    height:auto;
+    overflow-y: hidden;
 }
 .containerwrap{
    
-    display: inline-flex;
+    display: grid;
+    row-gap: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     margin: 20px;
 
@@ -13,9 +18,11 @@
 .totalcard{
     background-color: rgba(0, 0, 0, 0.836);
     
+    
 }
 .insidewarp{
     margin-right: 20px;
+   
 }
 .img{
     /* max-width: 250px; */
@@ -74,3 +81,50 @@ a:hover{
 }
 
 /* need to apply mediaquery!!! */
+@media only screen and (max-width: 1120px) {
+    .containerwrap{
+        display:grid;
+        grid-template-columns: auto auto;
+        row-gap: 30px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .containerwrap{
+        display:grid;
+        grid-template-columns: auto;
+        row-gap: auto;
+      
+        justify-content: center;
+        text-align: center;
+    }
+    .totalcard {
+        
+        height: auto;
+    }
+    .descreption{
+        padding: 10px;
+    }
+
+    .cardcontainer{
+        max-width: 300px;
+        margin-left: 15px;
+    }
+  
+}
+@media only screen and (max-width: 640px) {
+    .containerwrap{
+        display:grid;
+        grid-template-columns: auto;
+        row-gap: 70px;
+      
+        justify-content: center;
+        text-align: center;
+    }
+    /* .insidewarp{
+        min-width: 200px;
+    } */
+    .cardcontainer{
+        max-width: 300px;
+    }
+  
+}

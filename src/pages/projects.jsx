@@ -26,7 +26,7 @@ function Project() {
             data.map((value,index)=>{
                 return (
                 <div className='insidewarp'>
-                <Card  key={index} style={{ width: '23rem' ,height: '600px',borderBlockColor:"blue" }}> 
+                <Card className='cardcontainer' key={index} style={{ width: '23rem' ,height: '600px',borderBlockColor:"blue" }}> 
 
                     <Card.Img  className='img' src={value.image} />
                     <Card.Body className='totalcard'>

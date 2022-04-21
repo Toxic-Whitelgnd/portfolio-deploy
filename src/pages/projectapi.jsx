@@ -7,7 +7,7 @@ const data = [{
     title:"EncryDecy",
     image:img1,
     des:"A encryption and decryption,used to encrypt your text,passwords etc..decryption is used to decrypt your data!! Created on 12/07/2021",
-    language:"Html,css,js",
+    language:"HTML,CSS,JS",
     link:"https://toxic-whitelgnd.github.io/Encryption-decryption-html/"
 },
 {
@@ -22,8 +22,32 @@ const data = [{
     id:3,
     title:"FastShare",
     image:img3,
-    des:"Used to Share your  Information with  a QR code",
+    des:"Used to Share your  Information with  a QR code  ,This was My Bengining Project of my Python By using Tkinter , Created on 15.08.2021                                   .",
     language:"Python-Intermediate",
+    link:"#"
+},
+{
+    id:4,
+    title:"EncrypDecryp MobileApp",
+    image:img1,
+    des:"Same as Encryption and Decryption,it works on Mobile APP created by using Flutter on 15.01.2022",
+    language:"Flutter",
+    link:"#"
+},
+{
+    id:5,
+    title:"Entry_Exit_QR",
+    image:img1,
+    des:"Students leave and enter institutions, which is only recorded in books, thus we developed software that allows Universities to view their data in a firebase of student entry and exit utilising python.Developed on 2.01.2022,but still it is in Development",
+    language:"Python-Advanced",
+    link:"#"
+},
+{
+    id:6,
+    title:"PortFolio",
+    image:img3,
+    des:"Ya! This Portfolio is also one of my Project!.By USing ReactJS I created this on 27.04.2022    ",
+    language:"React JS,HTML,CSS",
     link:"#"
 }
 
