@@ -27,7 +27,7 @@ const data = [{
     image:img3,
     des:"Used to Share your  Information with  a QR code  ,This was My Bengining Project of my Python By using Tkinter , Created on 15.08.2021                                   .",
     language:"Python-Intermediate",
-    link:"#"
+    link:"https://toxic-whitelgnd.github.io/FastShareWEB-Deploy/"
 },
 {
     id:4,
