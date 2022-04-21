@@ -29,7 +29,7 @@ function Education() {
 
     return (
         <div className='education'>
-            <h3 className='mj'>My Journey</h3>
+            <div className='mj'>My Journey</div>
 
             <div className='threeboxes1'>
                 <div className='container1'>

@@ -54,7 +54,7 @@
 }
 .educa{
     font-family: 'Rubik Wet Paint', cursive;
-    background-color: #7291f9;
+    background-image: linear-gradient(to right,#fc354cda, #185b9dc5 );
 }
 #skills{
     height: auto;
