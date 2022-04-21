@@ -4,6 +4,9 @@
     height:auto;
     overflow-y: hidden;
 }
+h4{
+    font-family: 'Rubik Wet Paint', cursive;
+}
 .containerwrap{
    
     display: grid;
@@ -27,17 +30,21 @@
 .img{
     /* max-width: 250px; */
     max-height: 300px;
+    min-height: 300px;
    
 }
 .title{
     background-color: rgb(80, 223, 23);
-    border-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
     width:200px;
     justify-content: start;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px; 
-
+    font-family: 'Arvo', serif;
 }
 .language{
     display: inline-flex;
@@ -46,16 +53,19 @@
     width: 150px;
     justify-content: center;
     text-align: center;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
     
 }
 .descreption{
     background-color: rgba(0, 0, 0, 0.705);
-    padding: 30px;
+    padding: 10px;
     border-radius: 3px;
     border-width: 4px;
     border-color: black;
     border-style: solid;
     color: white;
+    font-family: 'Rajdhani', sans-serif;
 }
 /* use like hover change the backgroud */
 a:link {
@@ -75,6 +85,9 @@ a:hover{
     border-radius: 4px;
     color: greenyellow;
     text-decoration: none;
+    align-items: baseline;
+    margin-top: auto;
+    font-family: 'Arvo', serif;
 }
 .linkbox:hover{
     background-color: greenyellow;
@@ -108,6 +121,12 @@ a:hover{
     .cardcontainer{
         max-width: 300px;
         margin-left: 15px;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .linkbox{
+        margin: auto;
     }
   
 }

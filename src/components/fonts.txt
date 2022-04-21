@@ -1,0 +1,11 @@
+font-family: 'Arvo', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Teko', sans-serif;
