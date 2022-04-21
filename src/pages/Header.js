@@ -36,7 +36,7 @@ export default function Header1 () {
           <li className='nav-text'><Link  to="interest" spy={true} smooth={true}>Interest</Link></li>
           <li className='nav-text'><Link  to="education" spy={true} smooth={true}>Education</Link></li>
           <li className='nav-text'><Link  to="skills" spy={true} smooth={true}>Skills</Link></li>
-        
+          {/* <li className='nav-text'><Link  to="proj" spy={true} smooth={true}>Projects</Link></li> */}
             </ul>
             </Bounce>
             </div>

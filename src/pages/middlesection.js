@@ -90,8 +90,10 @@ export default class MiddleSection extends Component {
             <h1 className='skillsection'>Skills</h1>
             <Skills />
           </div>
+          <div id="projects">
           <div className='proj'>
             <Project />
+          </div>
           </div>
           <div id="footer">
             <h1 className='footersection'><Faico.FaHandPeace/></h1>

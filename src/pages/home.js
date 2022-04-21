@@ -57,7 +57,7 @@ function Home() {
     <Carousel.Caption>
       <h3 className='building'>Building stuff is something I really enjoy.</h3>
       <h3 className='myproj'>Explore</h3>
-      <Link to="skills" spy={true} smooth={true}> 👉🏻 Projects </Link>
+      <Link to="projects" spy={true} smooth={true}> 👉🏻 Projects </Link>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
