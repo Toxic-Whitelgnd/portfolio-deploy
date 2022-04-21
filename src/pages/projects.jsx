@@ -19,7 +19,7 @@ function Project() {
       return(
         <>
         <div className='projectcontainer'>
-            <h4>Projects</h4>
+            <div id="header">Projects</div>
             <div className='containerwrap'>
             
             {
