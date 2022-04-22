@@ -19,7 +19,7 @@ const data = [{
     image:img2,
     des:"A encryption and decryption,used to encrypt your text,passwords etc..decryption is used to decrypt your data!! Created on 12/07/2021,But it is Windows Based platform",
     language:"Python-Intermediate",
-    link:"#"
+    link:"https://toxic-whitelgnd.github.io/EncrypDecrypWeb/"
 },
 {
     id:3,
