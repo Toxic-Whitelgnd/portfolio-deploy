@@ -43,7 +43,7 @@ const data = [{
     image:img5,
     des:"Students leave and enter institutions, which is only recorded in books, thus we developed software that allows Universities to view their data in a firebase of student entry and exit utilising python,but still it is in Development",
     language:"Python-Advanced",
-    link:"#"
+    link:"https://toxic-whitelgnd.github.io/entryexitweb-deploy/"
 },
 {
     id:6,
