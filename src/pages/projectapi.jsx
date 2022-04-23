@@ -11,7 +11,7 @@ const data = [{
     image:img1,
     des:"A encryption and decryption,used to encrypt your text,passwords etc..decryption is used to decrypt your data!! Created on 12/07/2021",
     language:"HTML,CSS,JS",
-    link:"https://toxic-whitelgnd.github.io/Encryption-decryption-html/",
+    link:"https://toxic-whitelgnd.github.io/Encry_Decry_html/",
     anima:"fade-right",
     anchor:"top-center",
     ease:"ease-out-quart"
