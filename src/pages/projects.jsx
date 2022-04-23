@@ -26,7 +26,7 @@ function Project() {
             data.map((value,index)=>{
                 return (
                 <div className='insidewarp'>
-                <Card className='cardcontainer' key={index} style={{ width: '23rem' ,height: '640px',borderBlockColor:"blue" }}> 
+                <Card className='cardcontainer' data-aos={null?"flip-right":value.anima} data-aos-easing={null?"flip-right":value.ease} data-aos-duration="1000" data-aos-anchor-placement={null?"":value.anc} data-aos-mirror="true" key={index} style={{ width: '23rem' ,height: '640px',borderBlockColor:"blue" }}> 
 
                     <Card.Img  className='img' src={value.image} />
                     <Card.Body className='totalcard'>

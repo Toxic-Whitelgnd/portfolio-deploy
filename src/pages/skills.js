@@ -33,13 +33,13 @@ export default function Skills() {
   return (
     <>
       <div className='skill'>
-        <div className='skillsection'>
-          <div className='programingskill'>
+        <div className='skillsection' >
+          <div data-aos="slide-right" data-aos-duration="1000" data-aos-mirror="true"  className='programingskill'>
             <div className='boxwrapper'>
               Programming Language
             </div>
 
-            <div className='py'>
+            <div data-aos="fade-up-right" data-aos-duration="1000" data-aos-mirror="true" className='py'>
 
               <motion.div className='pythoncontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap">
@@ -49,7 +49,7 @@ export default function Skills() {
 
             </div>
 
-            <div className='java'>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true"  className='java'>
 
               <motion.div className='javacontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap">
@@ -59,7 +59,7 @@ export default function Skills() {
 
             </div>
 
-            <div className='c'>
+            <div data-aos="fade-up-left" data-aos-duration="1000" data-aos-mirror="true"  className='c'>
 
               <motion.div className='ccontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap">
@@ -71,11 +71,11 @@ export default function Skills() {
           </div>
 
           {/* if u want to display means change this */}
-          <div className='frontendskill'>
+          <div data-aos="slide-right" data-aos-duration="1000" data-aos-mirror="true" className='frontendskill'>
             <div className='boxwrapper'>
               FrontendSkill
             </div>
-            <div className='html1'>
+            <div data-aos-duration="1000" data-aos="fade-up-right" data-aos-mirror="true" className='html1'>
               <motion.div className='htmlcontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
@@ -86,7 +86,7 @@ export default function Skills() {
 
 
             </div>
-            <div className='css'>
+            <div data-aos-duration="1000" data-aos="fade-up" data-aos-mirror="true" className='css'>
               <motion.div className='htmlcontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
@@ -98,7 +98,7 @@ export default function Skills() {
 
             </div>
 
-            <div className='js'>
+            <div data-aos-duration="1000" data-aos="fade-up-left" data-aos-mirror="true" className='js'>
               <motion.div className='htmlcontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
@@ -112,12 +112,12 @@ export default function Skills() {
 
           </div>
           {/* Backend At Begineer Lvl */}
-          <div className='backendskill'>
+          <div data-aos-duration="1000" data-aos="slide-left" data-aos-mirror="true" className='backendskill'>
             <div className='boxwrapper'>
               Backend Skill
             </div>
 
-            <div className='sql'>
+            <div data-aos-duration="1000" data-aos="fade-up-left" data-aos-mirror="true" className='sql'>
               <motion.div className='htmlcontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
@@ -129,7 +129,7 @@ export default function Skills() {
               <div className='sqlname'>SQL</div>
             </div>
 
-            <div className='firebase'>
+            <div data-aos-duration="1000" data-aos="fade-up" data-aos-mirror="true" className='firebase'>
               <motion.div className='htmlcontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
@@ -140,7 +140,7 @@ export default function Skills() {
               <div className='fbname'>Firebase</div>
             </div>
 
-            <div className='mongodb'>
+            <div data-aos-duration="1000" data-aos="fade-up-right" data-aos-mirror="true" className='mongodb'>
               <motion.div className='htmlcontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
@@ -152,11 +152,11 @@ export default function Skills() {
             </div>
           </div>
 
-          <div className='appdevelopment'>
+          <div data-aos-duration="1000" data-aos="fade-up-left" data-aos-mirror="true" className='appdevelopment'>
             <div className='boxwrapper'>
               APP Development
             </div>
-            <div className='fluter1'>
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-mirror="true" className='fluter1'>
               <motion.div className='flutter' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
@@ -169,11 +169,11 @@ export default function Skills() {
 
 
           </div>
-          <div className='framework'>
+          <div data-aos-duration="1000" data-aos="slide-left" data-aos-mirror="true" className='framework'>
             <div className='boxwrapper'>
               BootStrap
             </div>
-            <div className='react'>
+            <div data-aos-duration="1000" data-aos="fade-up-left" data-aos-mirror="true" className='react'>
               <motion.div className='htmlcontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
@@ -183,7 +183,7 @@ export default function Skills() {
               <div className='rname'>ReactJs</div>
 
             </div>
-            <div className='node'>
+            <div data-aos-duration="1000" data-aos="fade-up" data-aos-mirror="true" className='node'>
               <motion.div className='htmlcontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
@@ -193,7 +193,7 @@ export default function Skills() {
               <div className='nname'>NodeJs</div>
 
             </div>
-            <div className='bootstrap'>
+            <div data-aos-duration="1000" data-aos="fade-up-right" data-aos-mirror="true" className='bootstrap'>
               <motion.div className='htmlcontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >

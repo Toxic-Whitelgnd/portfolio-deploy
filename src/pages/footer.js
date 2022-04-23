@@ -85,8 +85,8 @@ export default function Footer(){
             <h4> To all  Haters My Motivation and Quotes is</h4>
             <p><i>
             <Typewriter 
-                words={['"Your Intellegence is My Fukking Common Sense"'," 'Dont't Hide your Permanent Simle for Temporary Madarchods '",
-                " 'Be Different' "," 'Dont Trust Anyone in the World' "]}
+                words={['"Your Intellegence is My Fuckking Common Sense"'," 'Dont't Hide your Permanent Simle for Temporary Madarchods '",
+                " 'Be Different' "," 'Bye👋🏻 Have a great day' "]}
                 loop
                 cursor
                 cursorStyle='#'
@@ -99,7 +99,7 @@ export default function Footer(){
         </div>
 
         <div className="madeby">
-            <h5>Made By 💗 Tarun .... © copyright 2022</h5>
+            <h5>Made By 💗 Tarun  © copyright 2022</h5>
         </div>
         
         </div> 
