@@ -60,7 +60,7 @@ function Education() {
                         </div>
                         <div className='content'>
                             <h3 id='h3tag'> UnderGraduation</h3>
-                            <p id='paratag'>I am Currently Pursuing B.Tech CSE With AI (Computer Science Engineering With Artificial Intelligence) from ^^^^^^^.
+                            <p id='paratag'>I am Currently Pursuing B.Tech CSE With AI (Computer Science Engineering With Artificial Intelligence) from Jain University,Bangalore.
                             </p>
                         </div>
 

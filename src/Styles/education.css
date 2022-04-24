@@ -68,8 +68,9 @@ body{
     transition: 0.5s;
     z-index: 1;
     background-image: linear-gradient(to right,  #fc354c, #0abfbc);
-    
-    
+    background-image: url('https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2020/01/11140027/send-email-1024x512.png');
+    background-position: center;
+    background-size: cover;
 }
 .container1 .box:hover .jobicon{
     top: 20px;
@@ -95,8 +96,9 @@ body{
     transition: 0.5s;
     z-index: 1;
     background-image: linear-gradient(to left,  #fc354c, #0abfbc );
-    
-    
+    background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-position: center;
+    background-size: cover;
 }
 .container1 .box:hover .highericon{
     top: 20px;
@@ -126,8 +128,9 @@ body{
     transition: 0.5s;
     z-index: 1;
     background-image: linear-gradient(to right, #43cea2, #185a9d);
-    
-    
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/592/199/original/one-single-line-drawing-of-group-of-college-student-throw-their-cap-to-the-air-to-celebrate-their-school-graduation-undergraduate-education-concept-continuous-line-draw-design-illustration-vector.jpg');
+    background-position: center;
+    background-size: cover;
 }
 .container1 .box:hover .ugicon{
     top: 20px;
@@ -140,7 +143,7 @@ body{
     animation-duration: 4s;
     animation-name: widthsty;
     animation-iteration-count: infinite;   
-
+    background-image: linear-gradient(to right,white,white);
 }
 .container1 .box:hover .ugicon .ji{
     font-size: 40px;
@@ -209,10 +212,10 @@ body{
     background-color: #fd364dd2;
 }
 .container1 .box:nth-child(1) .ji{
-    color:black ;
+    color:#ED561D ;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-    animation-name: educc;
+    /* animation-name: educc; */
 }
 @keyframes educc {
     0% {color: blue;}
@@ -233,10 +236,10 @@ body{
     background-color: #185a9d;
 }
 .container1 .box:nth-child(2) .ji{
-    color: rgb(27, 221, 85);
+    color: black;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-name: hredu;
+    /* animation-name: hredu; */
 }
 @keyframes hredu {
     0% {color: blue;}
@@ -257,10 +260,10 @@ body{
     background-color: #0abfbc;
 }
 .container1 .box:nth-child(3) .ji{
-    color: black;
+    color: #7D3A91;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-    animation-name: jobb;
+    /* animation-name: jobb; */
     
 }
 @keyframes jobb {

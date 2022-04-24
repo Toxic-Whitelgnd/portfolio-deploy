@@ -32,10 +32,10 @@ body{
     background-color: #189AB4; 
     width: 100%;
     font-family: 'Rajdhani', sans-serif;
-    border-bottom: rgb(16, 160, 124);
+    border-bottom: rgba(50,130,146,1);
     border-width: 4px;
     border-bottom-style:groove ;
-    border-top: rgb(16, 160, 124);
+    border-top: rgba(50,130,146,1);
     border-top-style:groove ;
     overflow-x: hidden;
 

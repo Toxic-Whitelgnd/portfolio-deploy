@@ -118,7 +118,7 @@ export default function Skills() {
             </div>
 
             <div data-aos-duration="1000" data-aos="fade-up-left" data-aos-mirror="true" className='sql'>
-              <motion.div className='htmlcontainer' variants={skillvariant}
+              <motion.div className='ccontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
 
@@ -130,7 +130,7 @@ export default function Skills() {
             </div>
 
             <div data-aos-duration="1000" data-aos="fade-up" data-aos-mirror="true" className='firebase'>
-              <motion.div className='htmlcontainer' variants={skillvariant}
+              <motion.div className='ccontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
 
@@ -141,7 +141,7 @@ export default function Skills() {
             </div>
 
             <div data-aos-duration="1000" data-aos="fade-up-right" data-aos-mirror="true" className='mongodb'>
-              <motion.div className='htmlcontainer' variants={skillvariant}
+              <motion.div className='ccontainer' variants={skillvariant}
                 whileHover="hover" whileTap="ontap" onTap={ontapp}
               >
 

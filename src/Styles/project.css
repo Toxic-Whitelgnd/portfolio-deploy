@@ -3,6 +3,8 @@
     background-color: rgb(80, 223, 23);
     height:auto;
     overflow-y: hidden;
+    background: rgb(21,214,134);
+background: linear-gradient(126deg, rgba(21,214,134,1) 0%, rgba(184,216,247,1) 53%, rgba(0,173,255,1) 97%);
 }
 #header{
     font-family: 'Rubik Wet Paint', cursive;
@@ -17,6 +19,7 @@
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     margin: 20px;
+    
 
 }
 .totalcard{
@@ -26,6 +29,7 @@
 }
 .insidewarp{
     margin-right: 20px;
+    
    
 }
 .img{
@@ -33,6 +37,9 @@
     max-height: 300px;
     min-height: 300px;
    
+}
+.cardcontainer{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .title{
     background-color: rgb(80, 223, 23);

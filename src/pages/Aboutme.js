@@ -56,8 +56,7 @@ function Aboutme() {
 
       <Fade right={true}>
     
-      <h6 className='mecontent'> Tarun S.K. is my name. People refer to me
-       as Toxic-WhiteLgnd!! on Github. I enjoy learning about new
+      <h6 className='mecontent'>Myself Tarun S.K,A student who loves to learn new things,Most commonly I refered as MSOB in Games,Toxic-Whitelgnd in Github. I enjoy learning about new
         technology and, as a practitioner, I prefer to keep up with 
         current events. I'm attempting to make my code simple and accessible, but I'm failing miserably. I'll do my best to achieve it. 
         There is nothing to say about myself!! Need to learn something new and see the world from a different perspective!!

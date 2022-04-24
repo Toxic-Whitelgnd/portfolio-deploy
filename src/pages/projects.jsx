@@ -4,14 +4,23 @@ import data from "./projectapi"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { Card,Button } from 'react-bootstrap';
+import { motion } from "framer-motion"
 
 import "../Styles/project.css"
 
 function Project() {
 
-    function links(pros){
-        console.log("put the link",{pros})
-    }
+   
+    const boxvariant = {
+        hover:{
+          scale:1.1,
+          boxShadow:"3px 3px 3px 3px #222625"
+        },
+        onetap:{
+          scale:1.2,
+          boxShadow:"3px 3px 3px 3px #222625"
+        }
+      }
 
     useEffect(()=>{
         Aos.init()
@@ -25,10 +34,11 @@ function Project() {
             {
             data.map((value,index)=>{
                 return (
-                <div className='insidewarp'>
-                <Card className='cardcontainer' data-aos={null?"flip-right":value.anima} data-aos-easing={null?"flip-right":value.ease} data-aos-duration="1000" data-aos-anchor-placement={null?"":value.anc} data-aos-mirror="true" key={index} style={{ width: '23rem' ,height: '640px',borderBlockColor:"blue" }}> 
+                <motion.div className='insidewarp' >
+                <Card className='cardcontainer'  data-aos={null?"flip-right":value.anima} data-aos-easing={null?"flip-right":value.ease} data-aos-duration="1000" data-aos-anchor-placement={null?"":value.anc} data-aos-mirror="true" key={index} style={{ width: '23rem' ,height: '640px',borderBlockColor:"blue" }
+                } > 
 
-                    <Card.Img  className='img' src={value.image} />
+                    <Card.Img  className='img' src={value.image}  />
                     <Card.Body className='totalcard'>
                         <Card.Title className='title'>{value.title}</Card.Title>
                         <Card.Subtitle className='language'>{value.language}</Card.Subtitle>
@@ -39,7 +49,7 @@ function Project() {
 
 
                 </Card>
-                </div>
+                </motion.div>
                 )
 
             })
