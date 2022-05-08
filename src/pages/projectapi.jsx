@@ -4,6 +4,7 @@ import img3 from "../images/fs.png"
 import img4 from "../images/enma.jpg"
 import img5 from "../images/EEQR.png"
 import img6 from "../images/port.jpg"
+import img7 from "../images/todo.jpg"
 
 const data = [{
     id:1,
@@ -21,7 +22,7 @@ const data = [{
     title:"EncryDecryp Windows Based",
     image:img2,
     des:"To encrypt your text, passwords, and other data, you'll need to utilise encryption and decryption. It was developed on  September 22, 2021. However, it is a platform that runs on Windows.",
-    language:"Python-Intermediate",
+    language:"Python-tkinter",
     link:"https://toxic-whitelgnd.github.io/EncrypDecrypWeb/",
     anima:"flip-down",
     anc:"top-center",
@@ -32,7 +33,7 @@ const data = [{
     title:"FastShare",
     image:img3,
     des:"This was my Python Bengining Project, and it was used to share your information with a QR code. Tkinter was used to create this page, which was last updated on 15.08.2021.     .",
-    language:"Python-Intermediate",
+    language:"Python-Intermediate[OpenCV,Qrcode]",
     link:"https://toxic-whitelgnd.github.io/FastShareWEB-Deploy/",
     anima:"fade-left",
     anc:"top-center",
@@ -70,7 +71,19 @@ const data = [{
     anima:"zoom-in-left",
     anc:"top-center",
     ease:"ease-out-shine"
-}
+},
+{
+    id:4,
+    title:"ToDo-App",
+    image:img7,
+    des:"ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do, with the most important tasks at the top of the list, and the least important tasks at the bottom. It is helpful in planning our daily schedules.",
+    language:"Python-Django,Html,scss",
+    link:"https://github.com/Toxic-Whitelgnd/TodoWeb/tree/main",
+    anima:"zoom-in-right",
+    anc:"top-center",
+    ease:"ease-out-shine"
+},
+
 
 ]
 export default data

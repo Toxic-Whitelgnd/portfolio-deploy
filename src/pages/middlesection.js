@@ -96,7 +96,7 @@ export default class MiddleSection extends Component {
           </div>
           </div>
           <div id="footer">
-            <h1 className='footersection'><Faico.FaHandPeace/></h1>
+            {/* <h1 className='footersection'><Faico.FaHandPeace/></h1> */}
             <Footer />
           </div>
 

@@ -13,6 +13,13 @@ export default function Footer(){
     return(
         <>
         <div className="footercontent">
+
+        <div className="likebtn">   
+        <label class="like">
+            <input type="checkbox"/>
+            <div class="hearth"/>
+        </label>
+        </div>
         <div className="icons">
             {/* Facebook */}
             <a href="https://www.facebook.com/TheBestBrotherEver/">
