@@ -3,6 +3,7 @@ import "../Styles/home.css"
 import img1 from  "./../images/entry4.jpg"
 import img2 from "./../images/Hello.jpg"
 import img3 from "./../images/Pencil.jpg"
+import img4 from "./../images/tarunout.jpeg"
 import {Carousel} from "react-bootstrap"
 import {Link} from 'react-scroll'
 import { useEffect } from "react"
@@ -17,8 +18,8 @@ function Home() {
   <Carousel fade={true}>
   <Carousel.Item interval={2000}>
     <img
-      className="d-block w-100"
-      src={img1}
+      className="d-block w-100 mh-500"
+      src={img4}
       alt="First slide"
     />
     <Carousel.Caption>

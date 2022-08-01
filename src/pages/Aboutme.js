@@ -5,6 +5,8 @@ import img1 from "./../images/1.jpg"
 import img2 from "./../images/2.jpg"
 import img3 from "./../images/5.jpg"
 import img4 from "./../images/4.jpg"
+import img5 from "./../images/tarunout.jpeg"
+import img6 from "./../images/tarunright.png"
 import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
 import { useEffect } from "react"
@@ -31,13 +33,13 @@ function Aboutme() {
       <div className='wrapper'>
         <div className='box-area'>
           <div className='box box-front'>
-            <img className='aboutk' alt='aboutkomali' src={img2}></img>
+            <img className='aboutk' alt='aboutkomali' src={img1}></img>
           </div>
           <div className='box box-back'>
-          <img className='aboutk' alt='aboutkomali' src={img1}></img>
+          <img className='aboutk' alt='aboutkomali' src={img6}></img>
           </div>
           <div className='box box-right'>
-          <img className='aboutk' alt='aboutkomali' src={img3}></img>
+          <img className='aboutk' alt='aboutkomali' src={img5}></img>
           </div>
           <div className='box box-left'>
           <img className='aboutk' alt='aboutkomali' src={img4}></img>

@@ -26,7 +26,7 @@
 .aboutmeee{
     background-color: #B79065;
     background: rgb(50,130,146);
-background: linear-gradient(155deg, rgba(50,130,146,1) 1%, rgba(66,229,239,1) 50%, rgba(183,144,101,1) 83%);
+/* background: linear-gradient(155deg, rgba(50,130,146,1) 1%, rgba(66,229,239,1) 50%, rgba(183,144,101,1) 83%); */
     font-family: 'Rubik Wet Paint', cursive;
 }
 
@@ -34,15 +34,16 @@ background: linear-gradient(155deg, rgba(50,130,146,1) 1%, rgba(66,229,239,1) 50
     margin-top: auto;
     height: auto;
     background: rgb(50,130,146);
-    background: linear-gradient(155deg, rgba(50,130,146,1) 1%, rgba(66,229,239,1) 50%, rgba(183,144,101,1) 83%);
+    /* background: linear-gradient(155deg, rgba(50,130,146,1) 1%, rgba(66,229,239,1) 50%, rgba(183,144,101,1) 83%); */
     padding-bottom: 30px;
     font-family: 'Rubik Wet Paint', cursive;
 }
 #interest{
     height: auto;
-    background-color: rgb(52, 164, 179);
+    background-color: #05445E;
     background: rgb(214,21,93);
-background: linear-gradient(344deg, rgba(214,21,93,1) 0%, rgba(52,164,179,1) 52%, rgba(183,144,101,1) 84%);
+    background-color: #05445E;
+/* background: linear-gradient(344deg, rgba(214,21,93,1) 0%, rgba(52,164,179,1) 52%, rgba(183,144,101,1) 84%); */
 
 }
 .interestcontent{
@@ -53,17 +54,20 @@ background: linear-gradient(344deg, rgba(214,21,93,1) 0%, rgba(52,164,179,1) 52%
 #education{
     height: auto;
     overflow-x: hidden;
-    background-image: linear-gradient(to right,#fc354cd8, #185b9dc5 );
+    background: rgb(50,130,146);
+    /* background-image: linear-gradient(to right,#fc354cd8, #185b9dc5 ); */
     
 }
 .educa{
     font-family: 'Rubik Wet Paint', cursive;
-    background-image: linear-gradient(to right,#fc354cda, #185b9dc5 );
+    background: rgb(50,130,146);
+    /* background-image: linear-gradient(to right,#fc354cda, #185b9dc5 ); */
 }
 #skills{
     height: auto;
     background: rgb(21,214,134);
-    background: linear-gradient(327deg, rgba(21,214,134,1) 0%, rgba(184,216,247,1) 53%, rgba(0,173,255,1) 97%);
+    background-color: #05445E;
+    /* background: linear-gradient(327deg, rgba(21,214,134,1) 0%, rgba(184,216,247,1) 53%, rgba(0,173,255,1) 97%); */
 }
    
 

@@ -4,15 +4,16 @@
     height: auto;
     display: block;
     padding-bottom: auto;
-    background-image: linear-gradient(to right,#fc354cda, #185b9dc5 );
-
+    /* background-image: linear-gradient(to right,#fc354cda, #185b9dc5 ); */
+    background: rgb(50,130,146);
 }
 .threeboxes1{
     margin: auto;
     justify-content: center;
     grid-column: 2 / -1;
     display:flex;
-    background-image: linear-gradient(to right,#fc354cda, #185b9dc5 );
+    background: rgb(50,130,146);
+    /* background-image: linear-gradient(to right,#fc354cda, #185b9dc5 ); */
 
 
 }
@@ -25,7 +26,8 @@
     letter-spacing: 2px;
     margin-top: -9px;
     overflow: hidden;
-    background-image: linear-gradient(to right,#fc354cda, #185b9dc5 );
+    background: rgb(50,130,146);
+    /* background-image: linear-gradient(to right,#fc354cda, #185b9dc5 ); */
 }
 
 
