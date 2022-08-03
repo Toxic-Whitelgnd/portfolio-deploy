@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-deploy/static/css/main.d609c3f7.css",
-    "main.js": "/portfolio-deploy/static/js/main.48f0372f.js",
+    "main.js": "/portfolio-deploy/static/js/main.e89ba883.js",
     "static/media/enma.jpg": "/portfolio-deploy/static/media/enma.da115aa0c13a2d3f7490.jpg",
     "static/media/tarunright.png": "/portfolio-deploy/static/media/tarunright.c50112fe75bd780e033f.png",
     "static/media/EEQR.png": "/portfolio-deploy/static/media/EEQR.272df5c8193d1c9c6e1b.png",
@@ -18,15 +18,16 @@
     "static/media/5.jpg": "/portfolio-deploy/static/media/5.8e0e8f7a70b4d41f8e90.jpg",
     "static/media/port.jpg": "/portfolio-deploy/static/media/port.8d384a88d52a6b2f8654.jpg",
     "static/media/Hello.jpg": "/portfolio-deploy/static/media/Hello.690bd2dd2915cc564f69.jpg",
+    "static/media/clgclub.jpg": "/portfolio-deploy/static/media/clgclub.a3ef2b81d264db6e8fbd.jpg",
     "static/media/appimgs.png": "/portfolio-deploy/static/media/appimgs.1709e5ff264efea94e2b.png",
     "static/media/web.png": "/portfolio-deploy/static/media/web.0b2dd807353a18465739.png",
     "static/media/todo.jpg": "/portfolio-deploy/static/media/todo.31a948c2cbd5151d6bf1.jpg",
     "index.html": "/portfolio-deploy/index.html",
     "main.d609c3f7.css.map": "/portfolio-deploy/static/css/main.d609c3f7.css.map",
-    "main.48f0372f.js.map": "/portfolio-deploy/static/js/main.48f0372f.js.map"
+    "main.e89ba883.js.map": "/portfolio-deploy/static/js/main.e89ba883.js.map"
   },
   "entrypoints": [
     "static/css/main.d609c3f7.css",
-    "static/js/main.48f0372f.js"
+    "static/js/main.e89ba883.js"
   ]
 }
