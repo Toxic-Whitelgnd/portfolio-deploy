@@ -5,6 +5,7 @@ import img4 from "../images/enma.jpg"
 import img5 from "../images/EEQR.png"
 import img6 from "../images/port.jpg"
 import img7 from "../images/todo.jpg"
+import img8 from "../images/clgclub.jpg"
 
 const data = [{
     id:1,
@@ -73,7 +74,7 @@ const data = [{
     ease:"ease-out-shine"
 },
 {
-    id:4,
+    id:7,
     title:"ToDo-App",
     image:img7,
     des:"ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do, with the most important tasks at the top of the list. It is helpful in planning our daily schedules.",
@@ -83,6 +84,28 @@ const data = [{
     anc:"top-center",
     ease:"ease-out-shine"
 },
+{
+    id:8,
+    title:"Collage-Clubs",
+    image:img8,
+    des:"A website that lists the clubs that are available at the college and allows new students to browse and join them is used to advertise the groups there.",
+    language:"ReactJS,CSS,Html",
+    link:"https://toxic-whitelgnd.github.io/collage-clubs/",
+    anima:"zoom-in-up",
+    anc:"top-center",
+    ease:"ease-in-shine"
+},
+{
+    id:9,
+    title:"Anime-Ecommerce-website",
+    image:img8,
+    des:"A E-Commerce Website a Big Dream of my Life to make it. Yay I made it atleast to the basic level!.",
+    language:"NextJS,Tailwindcss,Sanity.io,Firebase",
+    link:"https://anime-ecommerce.vercel.app/",
+    anima:"zoom-in-up",
+    anc:"top-center",
+    ease:"ease-in-shine"
+}
 
 
 ]

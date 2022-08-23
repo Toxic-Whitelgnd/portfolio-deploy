@@ -103,6 +103,7 @@ export default function Footer(){
 
             />
             </i></p>
+           
         </div>
 
         <div className="madeby">

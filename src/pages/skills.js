@@ -33,6 +33,7 @@ export default function Skills() {
   return (
     <>
       <div className='skill'>
+\
         <div className='skillsection' >
           <div data-aos="slide-right" data-aos-duration="1000" data-aos-mirror="true"  className='programingskill'>
             <div className='boxwrapper'>

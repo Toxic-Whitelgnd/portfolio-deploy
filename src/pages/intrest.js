@@ -35,6 +35,7 @@ function Interest() {
 
     <div  data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true" className="interest">
       <h3 className='h3tag'>Here is my interest</h3>
+      
       <div  className='threeboxes'>
 
 

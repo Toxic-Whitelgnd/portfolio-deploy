@@ -59,7 +59,8 @@
     display: inline-flex;
     background-color: #338EBD;
     border-radius: 30px;
-    width: 150px;
+    width: auto;
+    padding: 3px;
     justify-content: center;
     text-align: center;
     font-family: 'Teko', sans-serif;
@@ -156,3 +157,6 @@ a:hover{
     }
   
 }
+
+
+/* FOR SEARCH BTN */

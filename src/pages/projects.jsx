@@ -1,15 +1,17 @@
 import React from 'react';
-import { useEffect } from 'react';
+import { useEffect,useState } from 'react';
 import data from "./projectapi"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { Card,Button } from 'react-bootstrap';
 import { motion } from "framer-motion"
+import {AiOutlineSearch} from "react-icons/ai"
 
 import "../Styles/project.css"
 
 function Project() {
 
+  const [Searchterm,setSearchTerm] = useState('');
    
     const boxvariant = {
         hover:{
@@ -27,10 +29,18 @@ function Project() {
       },[])
       return(
         <>
-        <div className='projectcontainer'>
-            <div id="header">Projects</div>
-            <div className='containerwrap'>
+         
+
             
+
+        <div className='projectcontainer'>
+            <div id="header">Projects 
+            </div>
+
+            
+           
+            
+            <div className='containerwrap'>   
             {
             data.map((value,index)=>{
                 return (
